@@ -13,9 +13,9 @@ export default class HomePage extends Component {
                 <div className="alert alert-warning text-center" role="alert">
                     Version 1.2.0 des SGamesLauncher ist da. Klicke <Link className="alert-link" to='/games'>hier</Link>, um die neuste Version zu Downloaden.
                 </div>
-                <div className="row mr-0 justify-content-center">
+                <div className="row mr-0 mt-3 justify-content-center">
                     <div className="col-4" />
-                    <div className="col-5  bg-dark text-center text-white ">
+                    <div className="col-md-5  bg-dark text-center text-white ">
                         <h1>Das bin ich</h1>
                     </div>
 
@@ -31,13 +31,13 @@ export default class HomePage extends Component {
                             <h3>Wohnorte:</h3>
                             <p>2000-2006 Wendelstein<br />2006-2011 Roth<br />2011-2015 Zuidlaren (NL)<br />2015-heute Bunde</p>
                             <h3>Hobbys:</h3>
-                            <p>- Anwendungsentwicklung<br />- Webentwicklung<br />- Video Editing<br />- Animieren<br />- Designen</p>
+                            <p>Anwendungsentwicklung<br />Webentwicklung<br />Video Editing<br />Animieren<br />Designen</p>
                         </div>
                     </div>
 
                 </div>
                 <div className="row justify-content-center mt-3 mr-0">
-                    <div className="col-sm-5  bg-dark text-center text-white ">
+                    <div className="col-md-5  bg-dark text-center text-white ">
                         <h1>Das kann ich</h1>
                     </div>
                     <div className="col-4" />
@@ -76,13 +76,13 @@ export default class HomePage extends Component {
 
                                 <div className="progress-bar bg-secondary" role="progressbar" style={{ width: "5%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <p>Angaben ohne Gewähr. Alle angaben basieren auf eigene Schätzungen, da dass nicht mein größtes Talent ist, können die echten Werte etwas abweichen.</p>
+                            <p>Angaben ohne Gewähr. Alle Angaben basieren auf eigene Schätzungen, da das nicht mein größtes Talent ist, können die echten Werte etwas abweichen.</p>
                         </div>
                     </div>
                 </div>
                 <div className="row mr-0 justify-content-center mt-3">
                     <div className="col-2" />
-                    <div className="col-5  bg-dark text-center text-white ">
+                    <div className="col-md-5  bg-dark text-center text-white ">
                         <h1>Diese Sprachen spreche ich</h1>
                     </div>
                 </div>

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 //Logo
-import LogoWeiss from '../logo/SWLogoWeiss.png';
+import LogoWeiss from '../logo/SWLogo2WRB.svg';
 
 export default class Header extends Component {
     render() {
