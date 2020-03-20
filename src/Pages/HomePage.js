@@ -2,6 +2,10 @@ import React, { Component } from 'react'
 
 import { Link } from 'react-router-dom';
 
+import imgGer from '../img/deu.jpg';
+import imgNed from '../img/ned.png';
+import imgeng from '../img/eng.jpg';
+
 export default class HomePage extends Component {
     render() {
         return (
@@ -9,15 +13,15 @@ export default class HomePage extends Component {
                 <div className="alert alert-warning text-center" role="alert">
                     Version 1.2.0 des SGamesLauncher ist da. Klicke <Link className="alert-link" to='/games'>hier</Link>, um die neuste Version zu Downloaden.
                 </div>
-                <div className="row justify-content-center">
+                <div className="row mr-0 justify-content-center">
                     <div className="col-4" />
                     <div className="col-5  bg-dark text-center text-white ">
                         <h1>Das bin ich</h1>
                     </div>
 
                 </div>
-                <div className="bg-danger  flex-row">
-                    <div className="row justify-content-center">
+                <div className="bg-danger flex-row">
+                    <div className="row mr-0 justify-content-center">
 
                         <div className="col-6 text-white">
                             <h3>Name:</h3>
@@ -32,15 +36,15 @@ export default class HomePage extends Component {
                     </div>
 
                 </div>
-                <div className="row justify-content-center mt-3">
-                    <div className="col-5  bg-dark text-center text-white ">
+                <div className="row justify-content-center mt-3 mr-0">
+                    <div className="col-sm-5  bg-dark text-center text-white ">
                         <h1>Das kann ich</h1>
                     </div>
                     <div className="col-4" />
 
                 </div>
-                <div className="bg-info flex-row">
-                    <div className="row justify-content-center">
+                <div className="bg-info flex-row mr-0">
+                    <div className="row mr-0 justify-content-center">
                         <div className="col-6 text-white">
                             <p className="mb-0">Anwendungsentwicklung</p>
                             <div className="progress mb-4" >
@@ -73,6 +77,39 @@ export default class HomePage extends Component {
                                 <div className="progress-bar bg-secondary" role="progressbar" style={{ width: "5%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <p>Angaben ohne Gewähr. Alle angaben basieren auf eigene Schätzungen, da dass nicht mein größtes Talent ist, können die echten Werte etwas abweichen.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="row mr-0 justify-content-center mt-3">
+                    <div className="col-2" />
+                    <div className="col-5  bg-dark text-center text-white ">
+                        <h1>Diese Sprachen spreche ich</h1>
+                    </div>
+                </div>
+
+                <div className="bg-success flex-row">
+
+
+
+                    <div className="row mr-0 justify-content-center">
+                        <div className="col-6 text-white mt-4 mb-4">
+                            <div className="row mr-0 justify-content-md-center">
+
+                                <div className="col-md-4 mb-3">
+                                    <img className="mx-auto d-block" src={imgGer} height="60"></img>
+                                </div>
+
+
+                                <div className="col-md-4 mb-3">
+                                    <img className="mx-auto d-block" src={imgNed} height="60"></img>
+                                </div>
+
+                                <div className="col-md-4 mb-3">
+                                    <img className="mx-auto d-block" src={imgeng} height="60"></img>
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
 
