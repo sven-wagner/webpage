@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
 
 //components
@@ -19,6 +19,7 @@ function App() {
       <div id="flexbox">
         <Switch>
           <Route path="/" exact component={HomePage} />
+          <Redirect from='/games'to="/games"/>
           <Route path="/games" exact component={GamePage} />
           <Route path="/" component={NotFoundPage} />
         </Switch>

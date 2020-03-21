@@ -40,7 +40,7 @@ export default class GamePage extends Component {
                     <div className="col-lg-7 bg-danger text-white ml-0 pr-0 pt-5">
                         <div className="pl-0 pr-0">
                             <h2 className="display-5">Hand Wash Simulator</h2>
-                            <p className="lead">Meine Frage war es, ob es möglich ist mit Windows Forms ein Spiel zu entwickeln. Ich glaube, ich habe die Grenzen von Windows Forms erreicht. Aber es ist möglich damit ein Spiel zu erstellen. Es ist nur die Frage, welche Anforderungen man hat. Bei mir war es "nur" ein Hande Wash Simulator. Wie ich auf die Idee gekommen bin? Ich weiß es selber nicht mehr ganz so genau. Nur so viel, ich hatte sehr viel Langeweile. Das Spiel kann lange dauern. Habe es (Stand: 2020) noch nicht einmal durchgespielt. Aber es dauert ewig. Ihr könnt euch die aktuelle Version in SGamesLauncher herunterladen, for FREE!</p>
+                            <p className="lead">Meine Frage war es, ob es möglich ist mit Windows Forms ein Spiel zu entwickeln. Ich glaube, ich habe die Grenzen von Windows Forms erreicht. Aber es ist möglich damit ein Spiel zu erstellen. Es ist nur die Frage, welche Anforderungen man hat. Bei mir war es "nur" ein Hand Wash Simulator. Wie ich auf die Idee gekommen bin? Ich weiß es selber nicht mehr ganz so genau. Nur so viel, ich hatte sehr viel Langeweile. Das Spiel kann lange dauern. Habe es (Stand: 2020) noch nicht einmal durchgespielt. Aber es dauert ewig. Ihr könnt euch die aktuelle Version in SGamesLauncher herunterladen, for FREE!</p>
                         </div>
                     </div>
                     <div className="col-lg-5 d-flex align-items-center bg-danger text-white pl-1 pr-0">
