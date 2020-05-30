@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+import { HashRouter, Route, Switch, Redirect} from 'react-router-dom';
 
 
 //components
@@ -11,21 +11,23 @@ import Footer from './components/Footer';
 import HomePage from './Pages/HomePage';
 import GamePage from './Pages/GamePage';
 import NotFoundPage from './Pages/NotFoundPage';
+import SGamesPage from './Pages/SGamesPage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter >
       <Header />
       <div id="flexbox">
         <Switch>
+          <Redirect from="/games" to="/sgames"/>
           <Route path="/" exact component={HomePage} />
-          <Redirect from='/games'to="/games"/>
           <Route path="/games" exact component={GamePage} />
+          <Route path="/sgames" exact component={SGamesPage} />
           <Route path="/" component={NotFoundPage} />
         </Switch>
-        <Footer/>
+        <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

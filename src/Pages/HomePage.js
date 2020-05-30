@@ -10,9 +10,7 @@ export default class HomePage extends Component {
     render() {
         return (
             <div className="Page" id="divHomePage">
-                <div className="alert alert-warning text-center" role="alert">
-                    Version 1.2.0 des SGamesLauncher ist da. Klicke <Link className="alert-link" to='/games'>hier</Link>, um die neuste Version zu Downloaden.
-                </div>
+               
                 <div className="row mr-0 mt-3 justify-content-center">
                     <div className="col-4" />
                     <div className="col-md-5  bg-dark text-center text-white ">

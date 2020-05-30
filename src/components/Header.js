@@ -17,7 +17,7 @@ export default class Header extends Component {
                             <Link className="nav-link text-light" to='/'>Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-light" to='/games'>Games</Link>
+                            <Link className="nav-link text-light" to='/games'>SGames</Link>
                         </li>
                     </ul>
                 </nav>

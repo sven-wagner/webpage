@@ -1,31 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f87005c6e171175e721392b82cae7bc6",
+    "revision": "0eaf8cbb385ea0d5068437fc3a92cc17",
     "url": "/index.html"
   },
   {
-    "revision": "ec12b36f264b50762a67",
+    "revision": "710507a986eed23c9e1d",
     "url": "/static/css/2.67123b20.chunk.css"
   },
   {
-    "revision": "c1e1fe5008105e1f6905",
-    "url": "/static/css/main.0ebd2925.chunk.css"
+    "revision": "0b53650d932fcd0dbbe0",
+    "url": "/static/css/main.2384148c.chunk.css"
   },
   {
-    "revision": "ec12b36f264b50762a67",
-    "url": "/static/js/2.e9313c86.chunk.js"
+    "revision": "710507a986eed23c9e1d",
+    "url": "/static/js/2.ce248ecd.chunk.js"
   },
   {
     "revision": "df8be702f0cc9d299c0ff42ca03d3e40",
-    "url": "/static/js/2.e9313c86.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.ce248ecd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c1e1fe5008105e1f6905",
-    "url": "/static/js/main.5be878de.chunk.js"
+    "revision": "0b53650d932fcd0dbbe0",
+    "url": "/static/js/main.12fbe4e2.chunk.js"
   },
   {
     "revision": "0a93640c6fe0293b2b0c",
     "url": "/static/js/runtime-main.24b56609.js"
+  },
+  {
+    "revision": "1da2e70c69d8fd1982c9d821eace133a",
+    "url": "/static/media/SGamesLauncherLogo.1da2e70c.svg"
+  },
+  {
+    "revision": "62d9ed1b41c43e95c4e30381eaae61eb",
+    "url": "/static/media/SGamesLogoLang.62d9ed1b.svg"
   },
   {
     "revision": "cd39cd99eb19b726b0872ca3e64bc4b2",
