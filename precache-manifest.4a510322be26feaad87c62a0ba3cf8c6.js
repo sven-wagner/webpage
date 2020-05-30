@@ -1,35 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a15f641f5791293b9d32f95aad464b1d",
+    "revision": "461b9a5df11e54575ad61067a9417e3d",
     "url": "/index.html"
   },
   {
-    "revision": "c62cd93a3546342da266",
+    "revision": "710507a986eed23c9e1d",
     "url": "/static/css/2.67123b20.chunk.css"
   },
   {
-    "revision": "922ed5bbf56ff933b9a2",
-    "url": "/static/css/main.0ebd2925.chunk.css"
+    "revision": "d43d3abe908a38648387",
+    "url": "/static/css/main.950adf53.chunk.css"
   },
   {
-    "revision": "c62cd93a3546342da266",
-    "url": "/static/js/2.ffd6becf.chunk.js"
+    "revision": "710507a986eed23c9e1d",
+    "url": "/static/js/2.ce248ecd.chunk.js"
   },
   {
     "revision": "df8be702f0cc9d299c0ff42ca03d3e40",
-    "url": "/static/js/2.ffd6becf.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.ce248ecd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "922ed5bbf56ff933b9a2",
-    "url": "/static/js/main.a3c9bfa5.chunk.js"
+    "revision": "d43d3abe908a38648387",
+    "url": "/static/js/main.73fe4c33.chunk.js"
   },
   {
     "revision": "0a93640c6fe0293b2b0c",
     "url": "/static/js/runtime-main.24b56609.js"
   },
   {
-    "revision": "cd39cd99eb19b726b0872ca3e64bc4b2",
-    "url": "/static/media/SWLogo2WRB.cd39cd99.svg"
+    "revision": "171d287f67f1382a0939464935dc0ce8",
+    "url": "/static/media/SGamesLauncherLogo.171d287f.svg"
+  },
+  {
+    "revision": "ede8021e27b66ffafa6abdd045e8a7f6",
+    "url": "/static/media/SGamesLogoLang.ede8021e.svg"
+  },
+  {
+    "revision": "aec61cd86f79834fd0344316210c61cf",
+    "url": "/static/media/SWLogo2WRB.aec61cd8.svg"
   },
   {
     "revision": "76badd84390be9991b951c9c5dc81391",

@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.0ebd2925.chunk.css",
-    "main.js": "/static/js/main.a3c9bfa5.chunk.js",
-    "main.js.map": "/static/js/main.a3c9bfa5.chunk.js.map",
+    "main.css": "/static/css/main.950adf53.chunk.css",
+    "main.js": "/static/js/main.73fe4c33.chunk.js",
+    "main.js.map": "/static/js/main.73fe4c33.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.24b56609.js",
     "runtime-main.js.map": "/static/js/runtime-main.24b56609.js.map",
     "static/css/2.67123b20.chunk.css": "/static/css/2.67123b20.chunk.css",
-    "static/js/2.ffd6becf.chunk.js": "/static/js/2.ffd6becf.chunk.js",
-    "static/js/2.ffd6becf.chunk.js.map": "/static/js/2.ffd6becf.chunk.js.map",
+    "static/js/2.ce248ecd.chunk.js": "/static/js/2.ce248ecd.chunk.js",
+    "static/js/2.ce248ecd.chunk.js.map": "/static/js/2.ce248ecd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2982bf5e98b8631e00f4fd955b2876ed.js": "/precache-manifest.2982bf5e98b8631e00f4fd955b2876ed.js",
+    "precache-manifest.4a510322be26feaad87c62a0ba3cf8c6.js": "/precache-manifest.4a510322be26feaad87c62a0ba3cf8c6.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.67123b20.chunk.css.map": "/static/css/2.67123b20.chunk.css.map",
-    "static/css/main.0ebd2925.chunk.css.map": "/static/css/main.0ebd2925.chunk.css.map",
-    "static/js/2.ffd6becf.chunk.js.LICENSE.txt": "/static/js/2.ffd6becf.chunk.js.LICENSE.txt",
-    "static/media/SWLogo2WRB.svg": "/static/media/SWLogo2WRB.cd39cd99.svg",
+    "static/css/main.950adf53.chunk.css.map": "/static/css/main.950adf53.chunk.css.map",
+    "static/js/2.ce248ecd.chunk.js.LICENSE.txt": "/static/js/2.ce248ecd.chunk.js.LICENSE.txt",
+    "static/media/SGamesLauncherLogo.svg": "/static/media/SGamesLauncherLogo.171d287f.svg",
+    "static/media/SGamesLogoLang.svg": "/static/media/SGamesLogoLang.ede8021e.svg",
+    "static/media/SWLogo2WRB.svg": "/static/media/SWLogo2WRB.aec61cd8.svg",
     "static/media/angelsinulator.png": "/static/media/angelsinulator.76badd84.png",
     "static/media/deu.jpg": "/static/media/deu.28c3016d.jpg",
     "static/media/eng.jpg": "/static/media/eng.02a249df.jpg",
@@ -24,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.24b56609.js",
     "static/css/2.67123b20.chunk.css",
-    "static/js/2.ffd6becf.chunk.js",
-    "static/css/main.0ebd2925.chunk.css",
-    "static/js/main.a3c9bfa5.chunk.js"
+    "static/js/2.ce248ecd.chunk.js",
+    "static/css/main.950adf53.chunk.css",
+    "static/js/main.73fe4c33.chunk.js"
   ]
 }
