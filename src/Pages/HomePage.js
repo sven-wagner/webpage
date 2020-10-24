@@ -6,6 +6,8 @@ import imgGer from '../img/deu.jpg';
 import imgNed from '../img/ned.png';
 import imgeng from '../img/eng.jpg';
 
+//bg Colors Gradent #100C28, #252552
+
 export default class HomePage extends Component {
     render() {
         return (
