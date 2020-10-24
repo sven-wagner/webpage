@@ -12,6 +12,7 @@ import HomePage from './Pages/HomePage';
 import GamePage from './Pages/GamePage';
 import NotFoundPage from './Pages/NotFoundPage';
 import SGamesPage from './Pages/SGamesPage';
+import qrPage from './Pages/qrPage';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/" exact component={HomePage} />
           <Route path="/games" exact component={GamePage} />
           <Route path="/sgames" exact component={SGamesPage} />
+          <Route path="/qrcode" exact component={qrPage} />
           <Route path="/" component={NotFoundPage} />
         </Switch>
         <Footer />
