@@ -1,18 +1,35 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types'
 
 //Logo
 import LogoWeiss from '../logo/SWLogo2WRB.svg';
 
 export default class Header extends Component {
+
+    constructor() {
+        super();
+
+        this.getbgColor = this.getbgColor.bind(this);
+    }
+
+    getbgColor() {
+        if (this.props.bg === true) {
+            return "header-color"
+        }
+        else {
+            return "header-transparent"
+        }
+    }
+
     render() {
         return (
-            <div>
-                <nav className="navbar navbar-light navHeader">
-                <Link className="navbar-brand" to="/">
-                        <img src={LogoWeiss} height="35" className="d-inline-block algin-top"></img>
+            <div className="header">
+                <nav className={`navbar navbar-dark navHeader w100 ${this.getbgColor()}`}>
+                    <Link className="navbar-brand" to="/">
+                        <img src={LogoWeiss} height="35" className="d-inline-block algin-top mr-3"></img>
                     </Link>
-                    <ul className="nav nav-pills">
+                    <ul className="nav nav-pills ">
                         <li className="nav-item">
                             <Link className="nav-link text-light" to='/'>Home</Link>
                         </li>
@@ -24,4 +41,8 @@ export default class Header extends Component {
             </div>
         )
     }
+}
+
+Header.propTypes = {
+    bg: PropTypes.bool,
 }
