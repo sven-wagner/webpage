@@ -1,38 +1,160 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
+    text-align: center;
+  }
+  
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
   }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+  
+  .navHeader {
+    background-color: #4f4f4f;
+    text-align: right;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#flexbox {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.Page {
+    flex: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#footer {
+    background-color: #141414;
+    color: white;
+    bottom: 0;
+}
+
+#divHomePage {
+    background-color: rgb(255, 255, 255);
+}
+
+#divSGamesPage {
+    background-color: #272727;
+}
+
+.fvRB {
+    background-image: linear-gradient(135deg, #5ddcf0, #e24e5d);
+}
+
+.fvBB {
+    background-image: linear-gradient(135deg, #5ddcf0, #34587c);
+}
+
+.h500px {
+    height: 500px;
+}
+
+.fade-1 {
+    animation-name: fadein1;
+    animation-duration: 3s;
+    position: absolute;
+}
+
+.fade-2 {
+    animation-name: fadein2;
+    animation-duration: 4s;
+    position: absolute;
+    top: -8px;
+}
+
+@keyframes fadein1 {
+    0% {
+        position: absolute;
+        top: -200px;
+        opacity: 0;
+    }
+    100% {
+        position: absolute;
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein2 {
+    0% {
+        position: absolute;
+        top: -100px;
+        opacity: 0;
+    }
+    100% {
+        position: absolute;
+        top: -8px;
+        opacity: 1;
+    }
+}
+
+.header {
+    position: fixed;
+    z-index: 9999;
+}
+
+.header-color {
+    background-image: linear-gradient(135deg, #f88894, #d34452);
+}
+
+.w100 {
+    width: 100vw;
+}
+
+.header-transparent {
+    background-color: transparent;
+}
+
+.zoom {
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.dt {
+    color: mix(#fff, #e91e63, 85%);
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.ro {
+    border-radius: 4px;
+}
+
+.bg-g {
+    background-color: #333333 im !important;
 }

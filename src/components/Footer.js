@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
-import { Link } from 'react-router-dom';
 
 export default class Footer extends Component {
 
@@ -11,11 +9,10 @@ export default class Footer extends Component {
 
     render() {
         return (
-            <div id="footer" >
-                <div className="text-center mt-3 mb-3">
-                    <p>©{this.getDate()}<br/> • <a className="text-light" href="https://github.com/sven-wagner" target="_blank">GitHub</a> •</p>
-                </div>
-            </div>
+            <div className="d-flex justify-content-center text-center mt-4">
+            <p>©{this.getDate()} by Sven Wagner<br /><a className="text-dark" href="https://github.com/sven-wagner" target="_blank">GitHub🔗</a></p>
+
+        </div>
         )
     }
 }
