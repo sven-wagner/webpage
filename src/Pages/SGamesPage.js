@@ -5,7 +5,7 @@ import imghws from '../img/hws.png';
 import imgsgl from '../img/sgameslauncher.png';
 import imgangelsimulator from '../img/angelsinulator.png';
 import imgtps from '../img/imgtps.png';
-import imgbts from '../img/imgbts.png';
+import imgbtb from '../img/imgbtb.png';
 
 import imgSGamesLogo from '../logo/SGamesLogoLang.svg'
 
@@ -120,12 +120,12 @@ export default class SGamesPage extends Component {
                         <div className="shadow ro ">
                             <div className="row">
                                 <div className="col-md-4 mt-2 ml-2 mb-2 mr-2 d-flex align-items-center">
-                                    <img className="card-img" src={imgbts} ></img>
+                                    <img className="card-img" src={imgbtb} ></img>
                                 </div>
                                 <div className="col">
                                     <div className="card-body">
-                                        <h3 className="card-title">BTS</h3>
-                                        <p className="card-text">BTS ist das bisher größte Vorhaben, was ich mir vorgenommen habe. Bis hier genauere Information kommen vergehen noch ein paar Jahre :)</p>
+                                        <h3 className="card-title">BTB</h3>
+                                        <p className="card-text">BTB ist das bisher größte Vorhaben, was ich mir vorgenommen habe. Bis hier genauere Information kommen vergehen noch ein paar Jahre :)</p>
                                     </div>
                                 </div>
                             </div>

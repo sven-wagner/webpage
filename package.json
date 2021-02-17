@@ -11,7 +11,7 @@
     "serve": "servor ./public/ index.html 8080",
     "start": "concurrently \"npm run serve\" \"npm run watch\" ",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d public"
+    "deploy": "npm run compile && gh-pages -d public"
   },
   "keywords": [],
   "author": "",
@@ -32,8 +32,7 @@
     "react-router-dom": "^5.2.0",
     "servor": "^2.0.3",
     "webpack": "^4.29.6",
-    "webpack-cli": "^3.2.3",
-    "wouter": "^2.7.3"
+    "webpack-cli": "^3.2.3"
   },
   "devDependencies": {
     "css-loader": "^5.0.2",

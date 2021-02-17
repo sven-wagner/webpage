@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 import imgGer from '../img/deu.jpg';
 import imgNed from '../img/ned.png';
 import imgeng from '../img/eng.jpg';
-import Header from '../components/Header';
 
 export default class HomePage extends Component {
 
