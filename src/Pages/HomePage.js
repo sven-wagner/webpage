@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import imgGer from '../img/deu.jpg';
 import imgNed from '../img/ned.png';
 import imgeng from '../img/eng.jpg';
+import Header from '../components/Header';
 
 export default class HomePage extends Component {
 
@@ -14,7 +15,7 @@ export default class HomePage extends Component {
     render() {
         return (
             <div className="Page" id="divHomePage">
-                {/* <Header /> */}
+               {/* <Header/> */}
                 <div className="fvRB h500px text-white text-uppercase d-flex align-items-center ">
                     <div className="col d-flex justify-content-end pr-0">
                         <h5 className="mr-1 fade-1 text-right">Willkommen auf der Website von</h5>

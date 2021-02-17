@@ -11,7 +11,7 @@ module.exports = {
         filename: "bundle.js",
     },
     devServer: {
-        historyApiFallback:true
+        historyApiFallback: true
     },
     module: {
         rules: [
@@ -34,9 +34,9 @@ module.exports = {
                 test: /\.css$/i,
                 use: ExtractTextPlugin.extract({
                     fallback: "style-loader",
-                    use:[
+                    use: [
                         {
-                            loader: "css-loader", options: {importLoaders:1}
+                            loader: "css-loader", options: { importLoaders: 1 }
                         }
                     ]
                 })
@@ -44,14 +44,14 @@ module.exports = {
             {
                 test: /\.svg$/,
                 use: [
-                  {
-                    loader: 'svg-url-loader',
-                    options: {
-                      limit: 10000,
+                    {
+                        loader: 'svg-url-loader',
+                        options: {
+                            limit: 10000,
+                        },
                     },
-                  },
                 ],
-              },
+            },
         ],
     },
     resolve: {
@@ -59,7 +59,7 @@ module.exports = {
             path.join(__dirname, "node_modules"),
         ],
     },
-    plugins:[
+    plugins: [
         new ExtractTextPlugin({
             filename: "[name].css",
             disable: true

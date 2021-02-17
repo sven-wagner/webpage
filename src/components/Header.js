@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
+import { Link, Route } from "wouter";
 import PropTypes from 'prop-types'
 
 //Logo

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './App.css';
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+//import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+import { Link, Route } from "wouter";
 
 
 //components
@@ -46,21 +47,32 @@ export default class App extends Component {
 
     render() {
         return (
-            <BrowserRouter >
+            // <BrowserRouter >
+            //     <Header
+            //         bg={this.state.headerbg}
+            //     />
+            //     <div id="flexbox">
+            //         <Switch>
+            //             <Redirect from="/games" to="/sgames" />
+            //             <Route path="/" exact component={HomePage} />
+            //             <Route path="/sgames" exact component={SGamesPage} />
+            //             <Route path="/qrcode" exact component={qrPage} />
+            //             <Route path="/" component={NotFoundPage} />
+            //         </Switch>
+            //         <Footer />
+            //     </div>
+            // </BrowserRouter>
+
+            <div>
                 <Header
                     bg={this.state.headerbg}
                 />
-                <div id="flexbox">
-                    <Switch>
-                        <Redirect from="/games" to="/sgames" />
-                        <Route path="/" exact component={HomePage} />
-                        <Route path="/sgames" exact component={SGamesPage} />
-                        <Route path="/qrcode" exact component={qrPage} />
-                        <Route path="/" component={NotFoundPage} />
-                    </Switch>
-                    <Footer />
-                </div>
-            </BrowserRouter>
+                
+                <Route path="/"  component={HomePage} />
+                <Route path="/sgames"  component={SGamesPage} />
+                <Route path="/qrcode" exact component={qrPage} />
+                <Footer/>
+            </div>
         )
     }
 }

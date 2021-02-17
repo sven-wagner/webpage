@@ -2,6 +2,7 @@
   "name": "website",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://s-wag.de",
   "main": "index.js",
   "scripts": {
     "put-version": "put-version ./public/index.html",
@@ -9,7 +10,8 @@
     "watch": "webpack -d --watch",
     "serve": "servor ./public/ index.html 8080",
     "start": "concurrently \"npm run serve\" \"npm run watch\" ",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d public"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +24,7 @@
     "bootstrap": "^4.6.0",
     "concurrently": "^5.3.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "gh-pages": "^3.1.0",
     "put-version": "^1.0.10",
     "react": "^17.0.1",
     "react-bootstrap-icons": "^1.3.0",
@@ -29,7 +32,8 @@
     "react-router-dom": "^5.2.0",
     "servor": "^2.0.3",
     "webpack": "^4.29.6",
-    "webpack-cli": "^3.2.3"
+    "webpack-cli": "^3.2.3",
+    "wouter": "^2.7.3"
   },
   "devDependencies": {
     "css-loader": "^5.0.2",
